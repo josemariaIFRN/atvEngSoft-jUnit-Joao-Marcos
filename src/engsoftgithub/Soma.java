@@ -16,14 +16,14 @@ package engsoftgithub;
  */
 public class Soma {
     
-    public void somar(int num1, int num2){
+    public int somar(int num1, int num2){
         // Exibe na tela a soma dos dois parâmetros passados pelo usuário.
-        System.out.println(num1 + num2);
+        return num1 + num2;
     }// fim somar()
     
-    public String somarN1(int num1){
+    public int somarN1(int num1){
         // Retorna a soma de um número passado por parâmetro com ele mesmo.
-        return num1 + num1+"";
+        return num1 + num1;
     }// fim somarN1()
     
     public float somarN2(int num2){

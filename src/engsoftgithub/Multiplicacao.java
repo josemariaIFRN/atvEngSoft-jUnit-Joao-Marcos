@@ -16,19 +16,19 @@ package engsoftgithub;
  */
 public class Multiplicacao {
     
-    public void multiplicar(int num1, int num2){
+    public int multiplicar(int num1, int num2){
         // Exibe na tela a multiplicação dos dois parâmetros passados pelo usuário.
-        System.out.println(num1 * num2);
+        return num1 * num2;
     }// fim multiplicar()
     
-    public String multiplicarN1(int num1){
+    public float multiplicarN1(int num1){
         // Retorna a multiplicação de um número passado por parâmetro com ele mesmo.
-        return num1 + num1+"";
+        return num1 * num1;
     }// fim multiplicarN1()
     
     public float multiplicarN2(int num2){
         // Retorna a multiplicação de um número passado por parâmetro com ele mesmo.
-        return num2 + num2;
+        return num2 * num2;
     }// fim multiplicarN2()
     
 }// fim classe Multiplicacao

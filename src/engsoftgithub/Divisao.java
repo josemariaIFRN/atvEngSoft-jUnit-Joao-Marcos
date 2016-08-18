@@ -16,19 +16,19 @@ package engsoftgithub;
  */
 public class Divisao {
 
-    public void dividir(int num1, int num2) {
+    public float dividir(int num1, int num2) {
         // Exibe na tela a divisão dos dois parâmetros passados pelo usuário.
-        System.out.println(num1 / num2);
+        return num1 / num2;
     }//fim dividir()
 
-    public String dividirN1(int num1) {
+    public float dividirN1(int num1) {
         // Retorna a divisão de um número passado por parâmetro com ele mesmo.
-        return num1 + num1 + "";
+        return num1 / num1;
     }//fim dividirN1()
 
     public float dividirN2(int num2) {
         // Retorna a subtração de um número passado por parâmetro com ele mesmo.
-        return num2 + num2;
+        return num2 / num2;
     }//fim dividirN2()
 
 }// fim classe Divisao

@@ -16,14 +16,14 @@ package engsoftgithub;
  */
 public class Subtracao {
     
-    public void subtrair(int num1, int num2){
+    public int subtrair(int num1, int num2){
         // Exibe na tela a soma dos dois parâmetros passados pelo usuário.
-        System.out.println(num1 - num2);
+        return num1 - num2;
     }//fim subtrair()
     
-    public String subtrairN1(int num1){
+    public int subtrairN1(int num1){
         // Retorna a subtração de um número passado por parâmetro com ele mesmo.
-        return num1 - num1+"";
+        return num1 - num1;
     }//fim subtrairN1()
     
     public float subtrairN2(int num2){
